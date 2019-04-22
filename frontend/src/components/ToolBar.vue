@@ -1,7 +1,7 @@
 <template>
   <div class="header">
-    <router-link to="Markets">Login |</router-link>
-    <router-link to="Domains">Join |</router-link>
+    <router-link to="Login">Login |</router-link>
+    <router-link to="Join">Join |</router-link>
     <div class="main">main page</div>
   </div>
 </template>

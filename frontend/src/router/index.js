@@ -1,15 +1,22 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '@/components/HelloWorld'
+import Join from '../views/JoinView.vue'
+import Login from '../views/LoginView.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'HelloWorld',
-    //   component: HelloWorld
-    // }
+    {
+      path: '/Login',
+      name: 'Login',
+      component: Login
+    },
+    {
+      path: '/Join',
+      name: 'Join',
+      component: Join
+    }
   ]
 })
